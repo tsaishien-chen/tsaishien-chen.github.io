@@ -1,6 +1,3 @@
 User-agent: *
-Disallow: /about/
-Disallow: /publications/
-Disallow: /timeline/
 
 Sitemap: https://tsaishien-chen.github.io/sitemap.xml
