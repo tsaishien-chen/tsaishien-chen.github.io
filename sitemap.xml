@@ -76,7 +76,7 @@
 		</url>
 
 		<url>
-			<loc>https://tsaishien-chen.github.io/projects/speago/report.pdf</loc>
+			<loc>https://tsaishien-chen.github.io/projects/speech/report.pdf</loc>
 			<changefreq>yearly</changefreq>
 		</url>
 
@@ -97,6 +97,46 @@
 
 		<url>
 			<loc>https://tsaishien-chen.github.io/projects/speago/report.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/chip_image.jpg</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/soft_test.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/fpga_test.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/chip_test.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/report.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/rectifier/demo.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/rectifier/pcb.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/rectifier/report.pdf</loc>
 			<changefreq>yearly</changefreq>
 		</url>
 
