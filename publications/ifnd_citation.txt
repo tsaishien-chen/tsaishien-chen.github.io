@@ -1,6 +1,6 @@
 @article{IFND,
-  title={Incremental False Negative Detection for Contrastive Learning},
-  author={Chen, Tsai-Shien and Hung, Wei-Chih and Tseng, Hung-Yu and Chien, Shao-Yi and Yang, Ming-Hsuan},
-  journal={arXiv preprint arXiv:2106.03719},
-  year={2021}
+  author = {Chen, Tsai-Shien and Hung, Wei-Chih and Tseng, Hung-Yu and Chien, Shao-Yi and Yang, Ming-Hsuan},
+  title = {Incremental False Negative Detection for Contrastive Learning},
+  journal = {arXiv preprint arXiv:2106.03719},
+  year = {2021}
 }
