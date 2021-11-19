@@ -1,0 +1,6 @@
+@inproceedings{SPAN,
+  author = {Chen, Tsai-Shien and Liu, Chih-Ting and Wu, Chih-Wei and Chien, Shao-Yi},
+  title = {Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network},
+  booktitle={European Conference on Computer Vision},
+  year = {2020}
+}
