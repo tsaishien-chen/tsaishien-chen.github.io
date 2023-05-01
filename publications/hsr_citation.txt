@@ -1,6 +1,0 @@
-@inproceedings{HSR,
-  author = {Liu, Chih-Ting and Lee, Man-Yu and Chen, Tsai-Shien and Chien, Shao-Yi},
-  title = {Hard Samples Rectification for Unsupervised Cross-Domain Person Re-Identification},
-  booktitle = {IEEE International Conference on Image Processing},
-  year = {2021}
-}
