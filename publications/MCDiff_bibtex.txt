@@ -1,0 +1,6 @@
+@article{chen2023mcdiff,
+  author = {Chen, Tsai-Shien and Lin, Chieh Hubert and Tseng, Hung-Yu and Lin, Tsung-Yi and Yang, Ming-Hsuan},
+  title = {Motion-Conditioned Diffusion Model for Controllable Video Synthesis},
+  journal = {arXiv preprint arXiv:2304.14404},
+  year = {2023},
+}
