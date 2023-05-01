@@ -1,0 +1,6 @@
+@inproceedings{JDRN,
+  author = {Liu, Chih-Ting and Lee, Man-Yu and Wu, Chih-Wei and Chen, Bo-Ying and Chen, Tsai-Shien and Hsu, Yao-Ting and Chien, Shao-Yi},
+  title = {Supervised Joint Domain Learning for Vehicle Re-Identification},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  year = {2019}
+}
