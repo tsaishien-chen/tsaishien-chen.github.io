@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="eGDOZ_6azobM9Vcl7r072IFo1FJ-TfNvGkmz6YbLCLo" />
+
+    <title>Tsai-Shien Chen</title>
+    <meta name="description" lang="en" content="This is an academic website for Tsai-Shien Chen to share his experiences and research.">
+    <meta name="keywords" lang="en" content="Tsai-Shien Chen, Deep Learning for Computer Vision, Generative Models." />
+      
+    <link rel="shortcut icon" href="data/images/icon/graduate.png">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="canonical" href="https://tsaishien-chen.github.io/">
+    <link rel="alternate" type="application/rss+xml" title="Tsai-Shien Chen" href="https://tsaishien-chen.github.io/feed.xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="assets/js/jquery-2.1.3.min.js"> </script>
+  </head>
+  
+  <body>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K5ZTMW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K5ZTMW');</script>
+    <!-- End Google Tag Manager -->
+
+    <header class="site-header">
+      <div class="wrapper">
+      <a class="site-title" href="/">Tsai-Shien Chen</a>
+      <nav class="site-nav">
+        <a href="#" class="menu-icon">
+          <svg viewBox="0 0 18 15">
+            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+          </svg>
+        </a>
+
+        <div class="trigger">
+          <a class="page-link" href="/">Home</a>   
+          <a class="page-link" href="#dashboard">Experiences</a>
+          <a class="page-link" href="#publications">Publications</a>
+          <!-- <a class="page-link" href="#achievements">Achievements</a> -->
+          <!-- <a class="page-link" href="#projects">Projects</a> -->
+        </div>
+      </nav>
+      </div>
+    </header>
+
+    <div id="profile-cover" class="cover shallow-bg img-responsive">
+      <div id="profile-namecard" class="profile-wrapper wrapper-light">
+        <div id="my-pic" class="profile-col profile-col-1">
+          <img id="profile-avatar" src="data/images/self-portrait/hawaii.jpg" alt="Me" class="circle-img border-dark"-/>
+        </div>
+        <div id="my-contact" class="profile-col profile-col-2">
+          <div id="my-name" class="text-grey-dark" style="padding-top: min(50px, 5%);">
+            Tsai-Shien Chen
+            <br>
+          </div>
+          <div id="my-title" class="text-grey">
+            Ph.D. Student at UC Merced
+          </div>
+          <div class="social-media" style="margin-top:.25cm; padding-bottom: min(50px, 5%); font-size:0px">
+            <a href="mailto:tsaishienchen@gmail.com" class="icon-button github">
+              <i class="fa fa-envelope icon-github" style="font-size:24px"></i>
+              <span></span>
+            </a>
+            <a href="data/cv/2025_01.pdf" class="icon-button github">
+              <i class="ai ai-cv icon-github" style="font-size:24px"></i>
+              <span></span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=jRsSebwAAAAJ" class="icon-button twitter">
+              <i class="ai ai-google-scholar-square icon-twitter"></i>
+              <span></span>
+            </a>
+            <a href="https://x.com/tsaishien_chen" class="icon-button github">
+              <i class="fa fa-brands fa-x-twitter icon-github" style="font-size:24px"></i>
+              <span></span>
+            </a>
+            <a href="https://www.linkedin.com/in/tsaishien-chen/" class="icon-button linkedin">
+              <i class="fa-brands fa-linkedin-in icon-linkedin" style="font-size:24px"></i>
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span style="text-align:center; display:block; font-size:10px"><i>Captured at the beautiful Santa Monica Beach, where I spent my summers of 2023 and 2024. Sending prayers to everyone impacted by the LA wildfires. 🙏</i></span>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div id="dashboard">
+          <div class="dash-bio">
+            <h1 class="md-heading text-center">
+              <i class="fa fa-id-card" aria-hidden="true"></i>
+              Biography 
+            </h1>
+            <div class="dash-bio-body">
+              <p>
+                Welcome! I am a third-year Ph.D. Student at <a href='https://www.ucmerced.edu/'>University of California, Merced</a>, advised by amazing <a href='https://faculty.ucmerced.edu/mhyang/'>Ming-Hsuan Yang</a>. I am also a research intern at <a href='https://www.snapchat.com/'>Snap</a>, where I am privileged to work with <a href='https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/'>Aliaksandr Siarohin</a>, <a href='http://www.stulyakov.com/'>Sergey Tulyakov</a>, <a href='https://www.cs.cmu.edu/~junyanz/'>Jun-Yan Zhu</a>, and
+                <a href='https://kfiraberman.github.io/'>Kfir Aberman</a>. My research aims at building advanced video generation models with groundbreaking applications. Previously, I did my M.S. and B.S. at <a href='http://www.ntu.edu.tw/english/index.html'>National Taiwan University</a>. If you would like to learn more about me, here is my [<a href="data/cv/2025_01.pdf">CV</a>] (updated in Jan 2025) or reach out to me at tsaishienchen [at] gmail.com!
+              </p>
+              <p>
+                I am honored to receive <a href='https://graduatedivision.ucmerced.edu/funding/fellowships/internal-fellowships/fellowship-recipients'>Graduate Student Opportunity Program Fellowship</a>.
+              </p>
+            </div>
+          </div>
+        
+          <div class="dash-tmline">
+            <div class="dash-tmline-body">
+              <div class="tmline-item">
+                <div class="tmline-date">
+                  <img class="social-icon" src="data/images/icon/snap.png"/>
+                  2023 May - Now
+                </div>
+                <div class="tmline-title">
+                  Research Intern @ Snap
+                </div>
+                <div class="tmline-desc">
+                  <a href="https://research.snap.com/team/creative-vision">Creative Vision</a>
+                </div>
+                <div class="tmline-host">
+                </div>
+              </div>
+        
+              <div class="tmline-item">
+                <div class="tmline-date">
+                  <img class="social-icon" src="data/images/icon/ucmerced.png"/>
+                  2022 Aug. - Now
+                </div>
+                <div class="tmline-title">
+                  Ph.D. Student @ UC Merced
+                </div>
+                <div class="tmline-desc">
+                  <a href='http://vllab.ucmerced.edu/'>Vision and Learning Lab</a>
+                </div>
+                <div class="tmline-host">
+                </div>
+              </div>
+        
+              <div class="tmline-item">
+                <div class="tmline-date">
+                  <img class="social-icon" src="data/images/icon/ntu.png"/>
+                  2019 Sep. - 2022 March
+                </div>
+                <div class="tmline-title">
+                  Master Student @ NTU
+                </div>
+                <div class="tmline-desc">
+                  <a href='http://media.ee.ntu.edu.tw/'>Media IC & System Lab</a>
+                </div>
+              </div>
+        
+            </div> 
+          </div>
+        </div>
+
+        <!-- <div id="bio" class="bio">
+          <h1 class="md-heading text-center">
+            <i class="fa fa-id-card" aria-hidden="true"></i>
+            Biography 
+          </h1>
+          <div class="bio-body" style="overflow:hidden;">
+            <p>
+              I am a first-year Ph.D. Student at <a href='https://www.ucmerced.edu/'>University of California, Merced</a>, advised by amazing <a href='https://faculty.ucmerced.edu/mhyang/'>Ming-Hsuan Yang</a>. My recent research interests are image, video, 3D synthesis and creation. Previously, I obtained my M.S. and B.S. degrees from <a href='http://www.ntu.edu.tw/english/index.html'>National Taiwan University</a>, where I have had privilege to work with <a href='http://www.ee.ntu.edu.tw/profile1.php?teacher_id=943013&p=3'>Shao-Yi Chien</a>. If you would like to learn more about me, here is my [<a href="files/cv.pdf">CV</a>] (updated in Dec. 2022) or reach out to me at tsaishienchen [at] gmail.com!
+            </p>
+          </div>
+        </div> -->
+
+        <!-- <div id="experiences" class="timeline-brief">
+          <h1 class="md-heading text-center">
+            <i class="fa fa-tasks" aria-hidden="true"></i>
+            Experiences
+          </h1>
+
+          <div class="timeline-body">
+            <div class="timeline-item">    
+              <div class="timeline-date">
+                <img class="social-icon" src="images/icon/ucmerced.png"/>
+                2022 Aug. - now
+              </div>
+              <div class="timeline-title">
+                Ph.D. Student @ UC Merced<br>       
+              </div>
+              <div class="timeline-desc">
+                <a href='http://vllab.ucmerced.edu/'>Vision and Learning Lab</a><br>
+          Image, video, 3D sythesis and creation
+              </div>
+              <div class="timeline-host">
+                Advisor: <a href='http://faculty.ucmerced.edu/mhyang/'>Ming-Hsuan Yang</a><br>
+              </div>
+            </div>
+            
+            <div class="timeline-item"> 
+              <div class="timeline-date">
+                <img class="social-icon" src="images/icon/ntu.png"/>
+                2019 Sep. - 2022 March
+              </div>
+              <div class="timeline-title">
+                Master Student @ NTU <br>       
+              </div>
+              <div class="timeline-desc">
+          <a href='http://media.ee.ntu.edu.tw/'>Media IC and System Lab</a><br>
+          Vehicle and person re-identification <br>
+          Unsupervised representation learning
+              </div>
+              <div class="timeline-host">
+                Advisor: <a href='http://www.ee.ntu.edu.tw/profile1.php?teacher_id=943013&p=3'>Shao-Yi Chien</a> <br>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">
+                <img class="social-icon" src="images/icon/mtk.png"/>
+                2019 July - Aug.
+              </div>
+              <div class="timeline-title">
+                Software Engineer Internship @ MediaTek <br>
+              </div>
+              <div class="timeline-desc">
+                Deep-learning for video encoding
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-date">
+                <img class="social-icon" src="images/icon/itri.png"/>
+                2017 July - Aug.
+              </div>
+              <div class="timeline-title">
+                Software Developer Internship @ ITRI <br>
+              </div>
+              <div class="timeline-desc">
+                Software tool for force analysis  
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-date">
+                <img class="social-icon" src="images/icon/ntu.png"/>
+                2015 Sep. - 2019 June
+              </div>
+              <div class="timeline-title">
+                Undergraduate Student @ NTU <br>       
+              </div>
+              <div class="timeline-desc">
+                Integrated circuit (IC) design<br>
+                Power supply circuit implementation<br>
+              </div>
+              <div class="timeline-host">
+                Advisors: <a href='http://www.ee.ntu.edu.tw/profile1.php?teacher_id=943013&p=3'>Shao-Yi Chien</a>, <a href='http://www.ee.ntu.edu.tw/profile1.php?id=65'>An-Yeu Wu</a>, <a href='http://www.ee.ntu.edu.tw/profile1.php?id=33'>Tzi-Dar Chiueh</a> <br>
+              </div>
+            </div>
+
+          </div>
+        </div> -->
+
+        <div class="button">
+          <h1 class="sm-heading text-center"></h1>
+        </div>
+        
+        <div id="publications" class="publications">
+          <h1 class="md-heading text-center">
+            <i class="fa fa-file" aria-hidden="true"></i>
+            Selected Publications
+          </h1>
+          <span style="text-align:center; display:block;">Check the full pubications list in [<a href="data/cv/2025_01.pdf">CV</a>]</span>
+
+          <div class="pub-list">
+
+            <div class="pub">
+              <div class="pub-left">
+                <video class="intro-img" src="data/publications/Video-Alchemist/teaser.mp4" type="video/mp4" playsinline autoplay loop muted></video>
+              </div>
+              <div class="pub-right">
+                <div class="title", style="font-size:17px">
+                  Multi-subject Open-set Personalization in Video Generation
+                </div>
+                <div class="authors">
+                  <a class="author" href="https://tsaishien-chen.github.io/"> <strong>Tsai-Shien Chen</strong></a>,
+                  <a class="author" href="https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/"> Aliaksandr Siarohin</a>,
+                  <a class="author" href="https://www.willimenapace.com/"> Willi Menapace</a>,
+                  <a class="author" href="https://yuwfan.github.io/"> Yuwei Fang</a>,
+                  <a class="author" href="https://www.linkedin.com/in/kwotsin/"> Kwot Sin Lee</a>,
+                  <a class="author" href="https://skor.sh/"> Ivan Skorokhodov</a>,
+                  <a class="author" href="https://kfiraberman.github.io/"> Kfir Aberman</a>,
+                  <a class="author" href="https://www.cs.cmu.edu/~junyanz/"> Jun-Yan Zhu</a>,
+                  <a class="author" href="https://faculty.ucmerced.edu/mhyang/"> Ming-Hsuan Yang</a>,
+                  <a class="author" href="http://www.stulyakov.com/"> Sergey Tulyakov</a>
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://snap-research.github.io/open-set-video-personalization/"><strong>website</strong></a> ]
+                  [ <a class="tag" href="https://arxiv.org/abs/2501.06187"><strong>arXiv</strong></a> ]
+                </div>
+                <div class="desc">
+                  We introduce Video Alchemist, a video model with built-in multi-subject, open-set personalization capabilities for both foreground objects and background, eliminating the need for time-consuming test-time optimization.
+                </div>
+                <div class="publish">
+                  <span class="publisher">arXiv preprint, 2025</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="pub">
+              <div class="pub-left">
+                <video class="intro-img" playsinline autoplay loop muted>
+                  <source src="data/publications/Panda-70M/teaser.mp4" type="video/mp4"/>
+                </video>
+              </div>
+              <div class="pub-right">
+                <div class="title", style="font-size:17px">
+                  Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers
+                </div>
+                <div class="authors">
+                  <a class="author" href="https://tsaishien-chen.github.io/"> <strong>Tsai-Shien Chen</strong></a>,
+                  <a class="author" href="https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/"> Aliaksandr Siarohin</a>,
+                  <a class="author" href="https://www.willimenapace.com/"> Willi Menapace</a>,
+                  <a class="author" href="https://edeyneka.github.io/"> Ekaterina Deyneka</a>,
+                  <a class="author" href="https://www.linkedin.com/in/hsiang-wei-chao"> Hsiang-wei Chao</a>,
+                  <a class="author" href="https://www.linkedin.com/in/logan-jeon"> Byung Eun Jeon</a>,
+                  <a class="author" href="https://yuwfan.github.io/"> Yuwei Fang</a>,
+                  <a class="author" href="http://hsinyinglee.com/"> Hsin-Ying Lee</a>,
+                  <a class="author" href="https://alanspike.github.io/"> Jian Ren</a>,
+                  <a class="author" href="https://faculty.ucmerced.edu/mhyang/"> Ming-Hsuan Yang</a>,
+                  <a class="author" href="http://www.stulyakov.com/"> Sergey Tulyakov</a>
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://snap-research.github.io/Panda-70M/"><strong>website</strong></a> ]
+                  [ <a class="tag" href="https://arxiv.org/abs/2402.19479"><strong>arXiv</strong></a> ]
+                  [ <a class="tag" href="https://github.com/snap-research/Panda-70M"><strong>code</strong></a> ]
+                  [ <a class="tag" href="https://youtu.be/m2NQ5k1oTcs"><strong>video</strong></a> ]
+                  [ <a class="tag" href="data/publications/Panda-70M/slides.pdf"><strong>slides</strong></a> ]
+                  [ <a class="tag" href="data/publications/Panda-70M/poster.pdf"><strong>poster</strong></a> ]
+                </div>
+                <div class="desc">
+                  We introduce Panda-70M, a large-scale video dataset with high-quality automatic caption annotations.
+                </div>
+                <div class="publish">
+                  <span class="publisher">CVPR, 2024</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <video class="intro-img" src="data/publications/SnapVideo/teaser.mp4" type="video/mp4"playsinline autoplay loop muted></video>
+              </div>
+              <div class="pub-right">
+                <div class="title", style="font-size:17px">
+                  Snap Video: Scaled Spatiotemporal Transformers for Text-to-Video Synthesis
+                </div>
+                <div class="authors">
+                  <a class="author" href="https://www.willimenapace.com/"> Willi Menapace</a>,
+                  <a class="author" href="https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/"> Aliaksandr Siarohin</a>,
+                  <a class="author" href="https://universome.github.io/"> Ivan Skorokhodov</a>,
+                  <a class="author" href="https://edeyneka.github.io/"> Ekaterina Deyneka</a>,
+                  <a class="author" href="https://tsaishien-chen.github.io/"> <strong>Tsai-Shien Chen</strong></a>,
+                  <a class="author" href="https://anilkagak2.github.io/"> Anil Kag</a>,
+                  <a class="author" href="https://yuwfan.github.io/"> Yuwei Fang</a>,
+                  <a class="author" href="https://www.linkedin.com/in/alexeystolyar"> Aleksei Stoliar</a>,
+                  <a class="author" href="https://eliricci.eu/"> Elisa Ricci</a>,
+                  <a class="author" href="https://alanspike.github.io/"> Jian Ren</a>,
+                  <a class="author" href="http://www.stulyakov.com/"> Sergey Tulyakov</a>
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://snap-research.github.io/snapvideo/"><strong>website</strong></a> ]
+                  [ <a class="tag" href="https://arxiv.org/abs/2402.14797"><strong>arXiv</strong></a> ]
+                  [ <a class="tag" href="https://youtu.be/aL2zq_IKSBg"><strong>video</strong></a> ]
+                </div>
+                <div class="desc">
+                  We introduce Snap Video, a transformer based Text-to-Video model, allowing us to efficiently train a T2V model with billions of parameters for the first time.
+                </div>
+                <div class="publish">
+                  <span class="publisher" style="text-align:right; display:block;">CVPR, 2024</span>
+                  <span class="publisher" style="text-align:right; display:block; color:#9b3022;">[Highlight, acceptance rate: 2.8%]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="data/publications/MCDiff/teaser.gif">
+              </div>
+              <div class="pub-right">
+                <div class="title", style="font-size:17px">
+                  Motion-Conditioned Diffusion Model for Controllable Video Synthesis
+                </div>
+                <div class="authors">
+                  <a class="author" href="https://tsaishien-chen.github.io/"> <strong>Tsai-Shien Chen</strong></a>,
+                  <a class="author" href="https://hubert0527.github.io/">Chieh Hubert Lin</a>,
+                  <a class="author" href="https://hytseng0509.github.io/">Hung-Yu Tseng</a>,
+                  <a class="author" href="https://tsungyilin.info/">Tsung-Yi Lin</a>,
+                  <a class="author" href="http://faculty.ucmerced.edu/mhyang/">Ming-Hsuan Yang</a>
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://tsaishien-chen.github.io/MCDiff/"><strong>website</strong></a> ]
+                  [ <a class="tag" href="https://arxiv.org/abs/2304.14404"><strong>arXiv</strong></a> ]
+                </div>
+                <div class="desc">
+                  We introduce MCDiff, a conditional diffusion model that generates a video from a starting image frame and a set of strokes.
+                </div>
+                <div class="publish">
+                  <span class="publisher">arXiv preprint, 2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="data/publications/IFND/teaser.gif">
+              </div>
+              <div class="pub-right">
+                <div class="title", style="font-size:17px">
+                  Incremental False Negative Detection for Contrastive Learning
+                </div>
+                <div class="authors">
+                  <a class="author" href="https://tsaishien-chen.github.io/"> <strong>Tsai-Shien Chen</strong></a>,
+                  <a class="author" href="https://hfslyc.github.io/">Wei-Chih Hung</a>,
+                  <a class="author" href="https://hytseng0509.github.io/">Hung-Yu Tseng</a>,
+                  <a class="author" href="http://www.ee.ntu.edu.tw/profile1.php?teacher_id=943013&p=3">Shao-Yi Chien</a>,
+                  <a class="author" href="http://faculty.ucmerced.edu/mhyang/">Ming-Hsuan Yang</a>
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://openreview.net/forum?id=dDjSKKA5TP1"><strong>OpenReview</strong></a> ]
+                  [ <a class="tag" href="https://arxiv.org/abs/2106.03719"><strong>arXiv</strong></a> ]
+                  [ <a class="tag" href="data/publications/IFND/slides.pdf"><strong>slides</strong></a> ]
+                  [ <a class="tag" href="data/publications/IFND/poster.pdf"><strong>poster</strong></a> ]
+                </div>
+                <div class="desc">
+                  We propose IFND which incrementally detects more reliable false negatives and explicitly remove them following the training process of contrastive learning when the embedding space becomes more semantically structural.
+                </div>
+                <div class="publish">
+                  <span class="publisher">ICLR, 2022</span>
+                </div>
+              </div>
+            </div>
+          
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="data/publications/SPAN/teaser.png">
+              </div>
+              <div class="pub-right">
+                <div class="title", style="font-size:17px">
+                  Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network
+                </div>
+                <div class="authors">
+                  <a class="author" href="https://tsaishien-chen.github.io/"> <strong>Tsai-Shien Chen</strong></a>,
+                  <a class="author" href="https://jackie840129.github.io/">Chih-Ting Liu</a>,
+                  <a class="author"> Chih-Wei Wu</a>,
+                  <a class="author" href="http://www.ee.ntu.edu.tw/profile1.php?teacher_id=943013&p=3">Shao-Yi Chien</a>
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://tsaishien-chen.github.io/SPAN"><strong>website</strong></a> ]
+                  [ <a class="tag" href="https://arxiv.org/abs/2008.11423"><strong>arXiv</strong></a> ]
+                  [ <a class="tag" href="https://github.com/tsaishien-chen/SPAN"><strong>code</strong></a> ]
+                  [ <a class="tag" href="https://youtu.be/gHBnue6U1Ec"><strong>video</strong></a> ]
+                  [ <a class="tag" href="data/publications/SPAN/slides.pdf"><strong>slides</strong></a> ]
+                </div>
+                <div class="desc">
+                  We propose SPAN to predict the spatial attention map for each vehicle view given only image-level label for training, and introduce a distance metric emphasizing on the difference in co-occurrence vehicle views.
+                </div>
+                <div class="publish">
+                  <span class="publisher" style="text-align:right; display:block;"> ECCV, 2020</span>
+                  <span class="publisher" style="text-align:right; display:block; color:#9b3022;">[Oral, acceptance rate: 2.1%]</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="data/publications/VCAM/teaser.gif">
+              </div>
+              <div class="pub-right">
+                <div class="title", style="font-size:17px">
+                  Viewpoint-Aware Channel-Wise Attentive Network for Vehicle Re-Identification
+                </div>
+                <div class="authors">
+                  <a class="author" href="https://tsaishien-chen.github.io/"> <strong>Tsai-Shien Chen</strong></a>,
+                  <a class="author"> Man-Yu Lee</a>,
+                  <a class="author" href="https://jackie840129.github.io/">Chih-Ting Liu</a>,
+                  <a class="author" href="http://www.ee.ntu.edu.tw/profile1.php?teacher_id=943013&p=3">Shao-Yi Chien</a>
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://arxiv.org/abs/2010.05810"><strong>arXiv</strong></a> ]
+                  [ <a class="tag" href="https://youtu.be/771YT_XPpBg"><strong>video</strong></a> ]
+                  [ <a class="tag" href="data/publications/VCAM/slides.pdf"><strong>slides</strong></a> ]
+                </div>
+                <div class="desc">
+                  We propose VCAM to enable our framework channel-wisely reweighing the importance of each feature map according to the viewpoint of input vehicle image. In addition, we explore the interpretability of how VCAM actually improves the performance of vehicle re-identification.
+                </div>
+                <div class="publish">
+                  <span class="publisher">CVPR Workshops, 2020</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="button">
+          <h1 class="sm-heading text-center">
+          </h1>
+        </div>
+
+
+        <!-- <div id="achievements" class="achievements">
+          <h1 class="md-heading text-center">
+            <i class="fa fa-trophy" aria-hidden="true"></i>
+            Experiences & Awards
+          </h1>
+          <div class="bio">
+            <h3 class="grey-hl"><strong>Reviewer</strong></h3>
+            <ul>	  
+              <strong>Serve as a reviewer for:</strong>
+              <li>Conferences: CVPR 2022, ICCV 2021</li>
+              <li>Journals: IEEE T-ITS, Neurocomputing</li>
+            </ul>
+            
+            <h3 class="grey-hl"><strong>Teaching Assistant</strong></h3>
+            <ul>
+              <strong>NTU EEE5053: Computer Vision (Spring 2021)</strong>
+              <li>Design algorithm problems and provide test cases and solutions.</li>
+              <li>Set an online discussion platform and a weekly TA time to deal with students' problems.</li>
+              <li>Write a code to automatically judge students' assignments.</li>
+            </ul>
+            
+            <h3 class="grey-hl"><strong>International Awards</strong></h3><ul>
+              <li><strong>Intel and NTU IoX Center Scholarship</strong> / Publication and Registration Grants for CVPR and ECCV / 2020-2021</li>
+              <li><strong>Oral Paper</strong> (2% acceptance rate) / European Conference on Computer Vision (ECCV) / 2020</li>
+              <li><strong>3rd place</strong> (out of 334 teams from 44 countries) / CVPR Workshop: <a href="https://www.aicitychallenge.org/">2019 AI City Challenge</a> (hosted by NVIDIA) / 2019</li>
+              <li><strong>Top 13%</strong> / International Kaggle Competition: <a href="https://www.kaggle.com/c/human-protein-atlas-image-classification">Human Protein Atlas Image Classification</a> / 2019</li>
+            </ul>
+            <h3 class="grey-hl"><strong>Domestic Awards</strong></h3>
+            <ul>
+              <li><strong>Honorary Member</strong> (top 3% in college) / Phi Tau Phi Scholastic Honor Society / 2022</li>
+              <li><strong>Valedictorian</strong> / Department of Electrical Engineering, National Taiwan University / 2019</li>
+              <li><strong>4-time Presidential Award</strong> (top 5% in department) / National Taiwan University / 2015-2019</li>
+              <li><strong>2nd place</strong> / Deep Learning for Computer Vision: Final Project Contest / 2019</li>
+              <li><strong>4th place</strong> (out of 200+ students) / Data Structure and Programming: Final Project Contest (hosted by Cadence) / 2018</li>
+            </ul>
+            <br>
+          </div>     
+        </div> -->
+
+
+        <!-- <div id="projects" class="projects">
+          <h1 class="md-heading text-center">
+            <i class="fa fa-code" aria-hidden="true"></i>
+            Selected Projects
+          </h1>
+
+          <div class="pub-list">
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="projects/scene_text/teaser.gif">
+              </div>
+
+              <div class="pub-right">
+                <div class="title">
+                  Dense Contrastive Pre-training for Scene Text Recognition (2021)
+                </div>
+                <div class="desc">
+                  Built a large-scale unlabeled scene text dataset which contains around 8 million word boxes. The word boxes are extracted from YouTube video captured in 300 metropolises around the world and contain more than 30 languages. We then introduced a novel dense contrastive learning framework to pre-train a strong model on the proposed dataset for scene text recognition.
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="projects/scene_text/proposal.pdf"><strong>proposal</strong></a> ]
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="projects/veri/teaser.gif">
+              </div>
+
+              <div class="pub-right">
+                <div class="title">
+                  Vehicle Re-identification & Traffic Anomaly Detection System (2019)
+                </div>
+                <div class="desc">
+                  Designed a system which can match vehicle images of same identity captured from different cameras and can also detect anomalies, such as lane violation, illegal U-turns and wrong-direction driving, etc. Got promising ranking AI City Challenges and the paper was accepted for publication.
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://github.com/tsaishien-chen/VCAM"><strong>code</strong></a> ]
+                  [ <a class="tag" href="https://openaccess.thecvf.com/content_CVPRW_2019/papers/AI%20City/Liu_Supervised_Joint_Domain_Learning_for_Vehicle_Re-Identification_CVPRW_2019_paper.pdf"><strong>report</strong></a> ]
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="projects/kaggle/teaser.png">
+              </div>
+
+              <div class="pub-right">
+                <div class="title">
+                  International Kaggle Competition: Human Protein Atlas Image Classification (2019)
+                </div>
+                <div class="desc">
+                  The objective of this <a href="https://www.kaggle.com/c/human-protein-atlas-image-classification/overview">competition</a> is to develop models capable of classifying mixed patterns of proteins in microscope images. To solve the problem of multi-label classification on 27 highly imbalanced classes, we proposed an algorithm with AdaBoost and ensemble technique to cope with imbalanced dataset and ranked 1st in class / 279th in the world.
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://github.com/tsaishien-chen/Human_Protein_Classification"><strong>code</strong></a> ]
+                  [ <a class="tag" href="projects/kaggle/proposal.pdf"><strong>proposal</strong></a> ]
+                  [ <a class="tag" href="projects/kaggle/report.pdf"><strong>report</strong></a> ]
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="projects/speech/teaser.png">
+              </div>
+
+              <div class="pub-right">
+                <div class="title">
+                  Speech Recognition System (2019)
+                </div>
+                <div class="desc">
+                  Built a complete speech processing system to classify the command type for the given speech clip (in wav file). The whole system mainly includes three steps: transformation from a raw speech signal into spectrogram, computation of 39-dim MFCC, and then classification of command type by a CNN model. 
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="https://github.com/tsaishien-chen/Speech_Recognition_System"><strong>code</strong></a> ]
+                  [ <a class="tag" href="projects/speech/report.pdf"><strong>report</strong></a> ]
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="projects/speago/teaser.png">
+              </div>
+
+              <div class="pub-right">
+                <div class="title">
+                  Speago: Voice Control Outfit Recommendation System (2017)
+                </div>
+                <div class="desc">
+                  Implemented a smart closet which is controlled by an Android app and would automatically pick up the recommended outfit based on the weather, temperature and the voice command of the user.
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="projects/speago/closet.jpg"><strong>image</strong></a> ]
+                  [ <a class="tag" href="projects/speago/app.mp4"><strong>app</strong></a> / 
+              <a class="tag" href="projects/speago/system.mp4"><strong>system demo</strong></a> ]
+                  [ <a class="tag" href="projects/speago/report.pdf"><strong>report</strong></a> ]
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="projects/icdesign/teaser.jpg">
+              </div>
+
+              <div class="pub-right">
+                <div class="title">
+                  Integrated Circuit Design: from Software to Hardware Development (2017)
+                </div>
+                <div class="desc">
+                  In this project, we experienced the complete process of IC development, which mainly includes five steps: software design, RTL implementation, synthesis (to Gate-level), placement and routing, and finally taping out our custom chip. We also executed corresponding verifications for the intermediate and finally products after each step.
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="projects/icdesign/chip_image.jpg"><strong>image</strong></a> ]
+                  [ <a class="tag" href="projects/icdesign/soft_test.mp4"><strong>software</strong></a> / 
+                    <a class="tag" href="projects/icdesign/fpga_test.mp4"><strong>FPGA</strong></a> /
+                    <a class="tag" href="projects/icdesign/chip_test.mp4"><strong>chip verification</strong></a> ]
+                  [ <a class="tag" href="projects/icdesign/report.pdf"><strong>report</strong></a> ]
+                </div>
+              </div>
+            </div>
+
+            <div class="pub">
+              <div class="pub-left">
+                <img class="intro-img frame" src="projects/rectifier/teaser.jpg">
+              </div>
+              <div class="pub-right">
+                <div class="title">
+                  Rectifier (2017)
+                </div>
+                <div class="desc">
+                  Designed a rectifier which can transfer the 110V AC input to 0~2.5V DC output and drive the mini fan with controllable rotation speed. In this project, we went through the circuit design and printed circuit board (PCB) making and verification.
+                </div>
+                <div class="tags">
+                  [ <a class="tag" href="projects/rectifier/demo.mp4"><strong>demo</strong></a> ]
+                  [ <a class="tag" href="projects/rectifier/pcb.mp4"><strong>PCB making</strong></a> ]
+                  [ <a class="tag" href="projects/rectifier/report.pdf"><strong>report</strong></a> ]
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+
+
+      <footer class="site-footer">
+        <div class="wrapper">
+          <div class="footer-col-wrapper">
+            
+            <div class="footer-col  footer-col-1">
+              <ul class="contact-list">
+                <li>Tsai-Shien Chen</li>
+                <li><a href="mailto:">tsaishienchen [at] gmail.com</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-col  footer-col-2">
+            </div>
+            
+            <div class="footer-col footer-col-3">
+              This is Tsai-Shien's perosnal webpage sharing his experiences and research.
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+
+
+      <div class="back-to-top">Top</div>
+
+    </div>
+
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        var offset = 220;
+        var duration = 500;
+        jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('.back-to-top').fadeIn(duration);
+            } else {
+                jQuery('.back-to-top').fadeOut(duration);
+        
+            }
+        });
+        jQuery('.back-to-top').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+        })
+    });
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-60071442-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>

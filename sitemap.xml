@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+		<url>
+			<loc>https://tsaishien-chen.github.io/</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/#</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/#timeline</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/#publications</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/#awards</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/#projects</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/files/cv.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/publications/span_slides.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/publications/span_bibtex.txt</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/publications/vcam_slides.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/publications/vcam_bibtex.txt</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/publications/jdrn_poster.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/publications/jdrn_bibtex.txt</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/kaggle/proposal.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/kaggle/report.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/speech/report.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/speago/closet.jpg</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/speago/app.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/speago/system.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/speago/report.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/chip_image.jpg</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/soft_test.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/fpga_test.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/chip_test.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/icdesign/report.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/rectifier/demo.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/rectifier/pcb.mp4</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+		<url>
+			<loc>https://tsaishien-chen.github.io/projects/rectifier/report.pdf</loc>
+			<changefreq>yearly</changefreq>
+		</url>
+
+	</urlset>
+

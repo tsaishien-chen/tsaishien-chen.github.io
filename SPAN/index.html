@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+        <meta name="google-site-verification" content="U8QcDlBKWJlyBgBFJ5NWv2F7jPj14IvGKKkhRiB9kSw" />
+        <title>Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network</title>
+        <meta name="description" lang="en" content="This is the website of paper: Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network [ECCV 2020]." />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen,projection" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<!-- Nav -->
+        <nav id="nav">
+            <ul class="container">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#paper">Paper & Code</a></li>
+                <li><a href="#results">Results</a></li>
+            </ul>
+        </nav>
+
+		<!-- Home -->
+        <div class="wrapper first style1">
+            <article class="container" id="home">
+                <h2>Orientation-aware Vehicle Re-identification with<br> Semantics-guided Part Attention Network<br></h2>
+                <br>
+                <div class="row center">
+                    <div class="author col l2 offset-l2 m3 s12"><a href="https://tsaishien-chen.github.io/" target="_blank">Tsai-Shien Chen</a></div>
+                    <div class="author col l2 m3 s12"><a href="https://jackie840129.github.io/" target="_blank">Chih-Ting Liu</a></div>
+                    <div class="author col l2 m3 s12"><a target="_blank">Chih-Wei Wu</a></div>
+                    <div class="author col l2 m3 s12"><a href="http://www.ee.ntu.edu.tw/profile1.php?teacher_id=943013&p=3" target="_blank">Shao-Yi Chien</a></div>
+                </div>
+                <br>
+                <div class="col">
+                    <div class="institute">
+                        <a href="https://giee.ntu.edu.tw/en/" target="_blank">Graduate Institute of Electronic Engineering</a>,
+                        <a href="https://www.ntu.edu.tw/english/index.html" target="_blank">National Taiwan University</a>
+                    </div>
+                    <div class="institute">
+                        <a href="https://iox.ntu.edu.tw/?language=en" target="_blank">NTU IoX Center</a>,
+                        <a href="https://www.ntu.edu.tw/english/index.html" target="_blank">National Taiwan University</a>
+                    </div>
+                    <br>
+                    <img style="width:850px;max-width:100%" src="images/teaser.png"><br><br>
+                    <i>*This paper has been accepted for publication at <strong>ECCV 2020</strong> and selected as an <strong>Oral Paper</strong>.</i>
+                </div>
+            </article>
+        </div>
+
+    
+		<!-- Abstract -->
+        <div class="wrapper style1">
+            <article id="abstract">
+                <div class="container">
+                    <h2>Abstract</h2>
+                    <p style="text-align:left">
+                        Vehicle re-identification (re-ID) focuses on matching images of the same vehicle across different cameras. It is fundamentally challenging because differences between vehicles are sometimes subtle. While several studies incorporate spatial-attention mechanisms to help vehicle re-ID, they often require expensive keypoint labels or suffer from noisy attention mask if not trained with expensive labels. In this work, we propose a dedicated Semantics-guided Part Attention Network (SPAN) to robustly predict part attention masks for different views of vehicles given only image-level semantic labels during training. With the help of part attention masks, we can extract discriminative features in each part separately. Then we introduce Co-occurrence Part-attentive Distance Metric (CPDM) which places greater emphasis on co-occurrence vehicle parts when evaluating the feature distance of two images. Extensive experiments validate the effectiveness of the proposed method and show that our framework outperforms the state-of-the-art approaches.
+                    </p>
+                    <p style="text-align:left">
+                        <strong>Keywords:</strong> Vehicle re-identification, spatial attention, semantics-guided learning, visibility-aware features
+                    </p>
+                </div>
+            </article>
+        </div>
+
+        <!-- Abstract -->
+        <div class="wrapper style1">
+            <article id="video">
+                <div class="container">
+                    <h2>Video</h2>
+                    <p style="text-align:center;">
+                        <iframe style="width:880px;height:495px;max-width:100%;max-height:56.25vw;" src="https://www.youtube.com/embed/gHBnue6U1Ec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+                    <p style="text-align:left">
+                        <i class="fa fa-youtube-play" style="font-size:20px;color:red"></i>
+                        <strong>Youtube link:</strong> <a href="https://youtu.be/gHBnue6U1Ec" target="_blank">https://youtu.be/gHBnue6U1Ec</a>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <i class="icon fa-file-pdf-o" style="font-size:20px"></i>
+                        <a href="https://tsaishien-chen.github.io/publications/SPAN_slides.pdf" target="_blank">Slide download link</a>
+                    </p>
+                </div>
+            </article>
+        </div>
+
+		<!-- Paper -->
+        <div class="wrapper style1">
+            <article id="paper">
+                <div class="container">
+                    <h2>Paper & Code</h2>
+
+                    <div class="subtitle">
+                        <h3>Paper</h3>
+                        <h6 class="download">
+                            <a href="https://arxiv.org/pdf/2008.11423.pdf" class="image" target="_blank">
+                                <img style="width:100%" src="./images/preview.png"> 
+                            </a>
+                        </h6>
+                        <p style="text-align:left">
+                            <i class="icon fa-file-pdf-o" style="font-size:20px"></i>
+                            <a href="https://arxiv.org/pdf/2008.11423.pdf" target="_blank">Paper download link</a>
+                        </p>
+                    </div>
+
+                    <div class="subtitle">
+                        <h3>Bibtex</h3>
+<pre><code>
+@inproceedings{SPAN,
+    author    = {Chen, Tsai-Shien and Liu, Chih-Ting and Wu, Chih-Wei and Chien, Shao-Yi},
+    title     = {Orientation-aware Vehicle Re-identification with Semantics-guided Part Attention Network},
+    booktitle = {European Conference on Computer Vision},
+    year      = {2020}
+  }
+</code></pre>
+                    </div>
+
+                    <div class="subtitle">
+                        <h3>Code</h3>
+                        <p style="text-align:left">
+                            <i class="fa fa-github" style="font-size:20px"></i>
+                            <strong>Github link:</strong> <a href="https://github.com/tsaishien-chen/SPAN" target="_blank">https://github.com/tsaishien-chen/SPAN</a>
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+		<!-- Results -->
+        <div class="wrapper style1">
+            <article class="container" id="results">
+                    <h2>Results</h2>
+                        <h3 style="margin-top: 2em">&#8226 <span style="margin-left: 0.7em">Predicted Part Attention Masks</span></h3>
+                            <p style="text-align:left;"> 
+                                <i class="icon fa-arrow-circle-down" style="margin-right: 0.5em"></i>
+                                The demonstration of some examples of the part masks generated by SPAN. Note that the demonstrated vehicles are all in different colors, types and orientations to verify the robustness of SPAN.
+                            </p>
+                            <p style="text-align:center;">
+                                <img style="width:800px;max-width:100%", src="results/map.png">
+                            </p>
+                    
+                            <p style="text-align:left;"> 
+                                <i class="icon fa-arrow-circle-down" style="margin-right: 0.5em"></i>
+                                The comparison of generated part masks with previous works, including Wang (left) [ICCV'17] and VAMI (right) [ECCV'18]. The attention maps generated by their methods are directly from their papers.
+                            </p>
+                            <p style="text-align:center;">
+                                <img style="width:950px;max-width:100%", src="results/compare.png">
+                            </p>
+                        
+                        <h3 style="margin-top: 2em">&#8226 <span style="margin-left: 0.7em">Performance of Re-Identification</span></h3>
+                            <p style="text-align:left;"> 
+                                <i class="icon fa-arrow-circle-down" style="margin-right: 0.5em"></i>
+                                The comparison of performance of re-identification with the state-of-the-art methods on two large-scale vehicle re-ID datasets: VeRi-776 and CityFlow-ReID datasets.
+                            </p>
+                            <p style="text-align:center;">
+                                <img style="width:1100px;max-width:100%" src="results/SOTA.png">
+                            </p>
+            </article>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="wrapper last style4">
+            <article class="container">
+                <footer>
+                    <ul id="copyright">
+                        <li>&copy; Tsai-Shien Chen. All rights reserved.</li>
+                        <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+                    </ul>
+                </footer>
+            </article>
+        </div>
+
+		<!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/skel-viewport.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/materialize.js"></script>
+	</body>
+</html>
