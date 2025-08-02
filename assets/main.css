@@ -45,7 +45,7 @@ a:hover {
 .site-header {
     background: linear-gradient(45deg, #d44a4a, #580c0c, #a52a2a, #580c0c);
     background-size: 400% 400%;
-    animation: headerGradient 7.5s ease infinite;
+    animation: headerGradient 10s ease infinite;
     position: fixed;
     top: 0;
     left: 0;
