@@ -590,7 +590,7 @@ a:hover {
 .site-footer {
     background: #f8fafc;
     color: #1f2937;
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .footer-content {
@@ -603,7 +603,7 @@ a:hover {
 
 .visitor-map {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: .5rem;
     overflow: hidden;
     max-width: 100%;
 }
