@@ -341,7 +341,7 @@ a:hover {
 
 .timeline-icon {
     position: absolute;
-    left: -31.5px;
+    left: -31.75px;
     top: 50%;
     transform: translateY(-50%);
     z-index: 2;
@@ -773,7 +773,7 @@ a:hover {
 
     .timeline-icon {
         position: absolute;
-        left: -35px;
+        left: -35.25px;
         top: 50%;
         transform: translateY(-50%);
         width: 50px;
