@@ -416,6 +416,8 @@ a:hover {
 
 .news-container {
     margin-top: 1.5rem;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 .news-grid {
@@ -531,7 +533,7 @@ a:hover {
 
 .pub-authors {
     font-size: 1rem;
-    color: #4b5563;
+    color: #1f2937;
     margin-bottom: 0.75rem;
     line-height: 1.3;
 }
