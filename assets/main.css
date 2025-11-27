@@ -810,6 +810,10 @@ a:hover {
         font-size: 1rem;
     }
 
+    .news-container {
+        max-height: 200px;
+    }
+
     .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
