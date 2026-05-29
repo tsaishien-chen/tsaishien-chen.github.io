@@ -538,10 +538,6 @@ a:hover {
     line-height: 1.3;
 }
 
-.pub-authors strong {
-    color: #8C1515;
-}
-
 .pub-authors a {
     color: inherit;
 }
@@ -581,11 +577,6 @@ a:hover {
     color: #4b5563;
     line-height: 1.3;
     flex-grow: 1;
-}
-
-.highlight {
-    color: #dc2626;
-    font-weight: 700;
 }
 
 /* Footer */
