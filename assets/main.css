@@ -214,10 +214,16 @@ a:hover {
 }
 
 .profile-name {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #1f2937;
     margin-bottom: 0.5rem;
+}
+
+.profile-name-zh {
+    /* CJK glyphs render larger than Latin at equal font-size */
+    font-size: 0.9em;
+    white-space: nowrap;
 }
 
 .profile-title {
@@ -414,8 +420,50 @@ a:hover {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 }
 
+.news-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.news-header .section-title {
+    margin-bottom: 0;
+}
+
+.news-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.news-filter {
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #6b7280;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    padding: 0.35rem 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.news-filter:hover {
+    color: #8C1515;
+    border-color: #8C1515;
+}
+
+.news-filter.active {
+    background: #8C1515;
+    border-color: #8C1515;
+    color: #fff;
+}
+
 .news-container {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     max-height: 300px;
     overflow-y: auto;
 }
@@ -433,8 +481,13 @@ a:hover {
     gap: 1rem;
 }
 
-.news-item:last-child {
+.news-item:last-child,
+.news-item.is-last {
     border-bottom: none;
+}
+
+.news-item.hidden {
+    display: none;
 }
 
 .news-date {
@@ -735,7 +788,7 @@ a:hover {
     }
 
     .profile-name {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .profile-info {
@@ -791,6 +844,16 @@ a:hover {
         padding: 3rem 0;
     }
 
+    .news-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .news-filters {
+        justify-content: center;
+    }
+
     .news-container {
         max-height: 500px;
         overflow-y: auto;
@@ -843,7 +906,7 @@ a:hover {
     }
 
     .profile-name {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
     }
 
     .social-links {

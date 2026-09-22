@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tsai-Shien Chen - Ph.D. Candidate at UC Merced specializing in Deep Learning for Computer Vision and Generative Models">
-    <meta name="keywords" content="Tsai-Shien Chen, Deep Learning, Computer Vision, Generative Models, Video Synthesis">
+    <meta name="keywords" content="Tsai-Shien Chen, 陳在賢, Deep Learning, Computer Vision, Generative Models, Video Synthesis">
     <meta name="google-site-verification" content="eGDOZ_6azobM9Vcl7r072IFo1FJ-TfNvGkmz6YbLCLo">
     
     <title>Tsai-Shien Chen</title>
@@ -60,7 +60,7 @@
                         <img src="data/images/self-portrait/rainier.jpg" alt="Tsai-Shien Chen" class="avatar">
                     </div>
                     <div class="profile-info">
-                        <h1 class="profile-name">Tsai-Shien Chen</h1>
+                        <h1 class="profile-name">Tsai-Shien Chen <span class="profile-name-zh" lang="zh-Hant">(陳在賢)</span></h1>
                         <p class="profile-title">Ph.D. Candidate at UC Merced</p>
                         <div class="social-links">
                             <a href="mailto:tsaishienchen@gmail.com" class="social-link" title="Email">
@@ -176,33 +176,45 @@
         <section id="news" class="section news-section">
             <div class="container">
                 <div class="news-content-wrapper">
-                    <h2 class="section-title">
-                        <i class="fa fa-newspaper"></i>
-                        News
-                    </h2>
+                    <div class="news-header">
+                        <h2 class="section-title">
+                            <i class="fa fa-newspaper"></i>
+                            News
+                        </h2>
+                        <div class="news-filters" role="tablist" aria-label="Filter news by category">
+                            <button type="button" class="news-filter active" data-filter="all" aria-pressed="true">All</button>
+                            <button type="button" class="news-filter" data-filter="publication" aria-pressed="false">Publications</button>
+                            <button type="button" class="news-filter" data-filter="talk" aria-pressed="false">Talks</button>
+                            <button type="button" class="news-filter" data-filter="award" aria-pressed="false">Awards</button>
+                        </div>
+                    </div>
                     <div class="news-container">
                         <div class="news-grid">
-                            <div class="news-item">
+                            <div class="news-item" data-category="talk">
+                                <div class="news-date">Sep 2026 <span class="news-label">NEW!</span></div>
+                                <div class="news-content">Invited talk at UC Merced: "Toward Controllable Video Generation: From Web-Scale Data to Efficient Cinematic Control".</div>
+                            </div>
+                            <div class="news-item" data-category="publication">
                                 <div class="news-date">July 2026 <span class="news-label">NEW!</span></div>
                                 <div class="news-content"><a href="https://snap-research.github.io/canvascomposer/">CanvasComposer</a> was accepted to SIGGRAPH Asia 2026.</div>
                             </div>
-                            <div class="news-item">
-                                <div class="news-date">May 2026 <span class="news-label">NEW!</span></div>
+                            <div class="news-item" data-category="award">
+                                <div class="news-date">May 2026</div>
                                 <div class="news-content">Selected as <a href="https://cvpr.thecvf.com/Conferences/2026/ProgramCommittee">CVPR 2026 Outstanding Reviewers</a> (top 5% of reviewers).</div>
                             </div>
-                            <div class="news-item">
-                                <div class="news-date">May 2026 <span class="news-label">NEW!</span></div>
+                            <div class="news-item" data-category="talk">
+                                <div class="news-date">May 2026</div>
                                 <div class="news-content">Invited poster: <a href="https://snap-research.github.io/omni-attribute/">Omni-Attribute</a> at the <a href="https://cvpr2026-bigmac-workshop.limitlab.xyz/">BigMAC Workshop @ CVPR 2026</a>.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="award">
                                 <div class="news-date">April 2026</div>
                                 <div class="news-content">Selected to participate <a href="https://openreview.net/forum?id=uOGUi60zdY">CVPR 2026 Doctoral Consortium</a>.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="talk">
                                 <div class="news-date">April 2026</div>
                                 <div class="news-content">Invited talk at ByteDance: "From Data to Director: Towards Controllable and Personalized Movie Generation".</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="publication">
                                 <div class="news-date">March 2026</div>
                                 <div class="news-content"><a href="https://snap-research.github.io/canvas-to-image/">Canvas-to-Image</a> was accepted to SIGGRAPH 2026.</div>
                             </div>
@@ -210,39 +222,39 @@
                                 <div class="news-date">March 2026</div>
                                 <div class="news-content">Joined Adobe Research as a Research Intern working with <a href="https://richzhang.github.io/">Richard Zhang</a> and <a href="https://research.adobe.com/person/eli-shechtman/">Eli Shechtman</a>.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="publication">
                                 <div class="news-date">Feb 2026</div>
                                 <div class="news-content"><a href="https://snap-research.github.io/omni-attribute/">Omni-Attribute</a> and <a href="https://snap-research.github.io/Video-AlcheMinT/">AlcheMinT</a> were accepted to CVPR 2026.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="publication">
                                 <div class="news-date">Dec 2025</div>
                                 <div class="news-content">Granted a U.S. patent related to a <a href="https://patents.google.com/patent/US12489956B2/en">video dataset</a>.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="talk">
                                 <div class="news-date">Dec 2025</div>
                                 <div class="news-content">Invited talk at <a href="https://www.aitime.cn/">AI Time</a>: "From Personalization Models towards Movie Generator". Watch on <a href="https://www.bilibili.com/video/BV1bxqdBYEvQ/?spm_id_from=333.1387.homepage.video_card.click">Bilibili</a>.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="award">
                                 <div class="news-date">Oct 2025</div>
                                 <div class="news-content">Awarded <a href="https://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2025">2025 Google PhD Fellowship</a> in Machine Perception.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="talk">
                                 <div class="news-date">July 2025</div>
                                 <div class="news-content">Invited talk at <a href="https://www.anuttacon.com/">Anuttacon</a>: "Learning Video Generation and Personalization from Large-Scale Datasets".</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="publication">
                                 <div class="news-date">Feb 2025</div>
                                 <div class="news-content"><a href="https://snap-research.github.io/open-set-video-personalization/">Video Alchemist</a> was accepted to CVPR 2025.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="award">
                                 <div class="news-date">June 2024</div>
                                 <div class="news-content">Awarded <a href="https://graduatedivision.ucmerced.edu/financial-support/internal-fellowships/graduate-student-opportunity-program">Graduate Student Opportunity Program Fellowship</a> (one year of full tuition and stipend) from UC Merced.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="publication">
                                 <div class="news-date">Sep 2024</div>
                                 <div class="news-content"><a href="https://snap-research.github.io/VIMI/">VIMI</a> was accepted to EMNLP 2024.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="publication">
                                 <div class="news-date">Feb 2024</div>
                                 <div class="news-content"><a href="https://snap-research.github.io/Panda-70M/">Panda-70M</a> and <a href="https://snap-research.github.io/snapvideo/">Snap Video</a> were accepted to CVPR 2024, with Snap Video selected as <a href="https://cvpr.thecvf.com/virtual/2024/poster/29564">Highlight Presentation</a>.</div>
                             </div>
@@ -250,7 +262,7 @@
                                 <div class="news-date">May 2023</div>
                                 <div class="news-content">Joined Snap Creative Vision team as a Research Intern working with <a href="https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/">Aliaksandr Siarohin</a> and <a href="http://www.stulyakov.com/">Sergey Tulyakov</a>.</div>
                             </div>
-                            <div class="news-item">
+                            <div class="news-item" data-category="award">
                                 <div class="news-date">April 2023</div>
                                 <div class="news-content">Received <a href="https://giee.ntu.edu.tw/msys/webpageload/bestpaper.htm">Best Master Thesis of the Year Award</a> from NTU GIEE.</div>
                             </div>
@@ -667,6 +679,38 @@
                 function() {
                     navMenu.classList.remove('active');
                     navToggle.classList.remove('active');
+                });
+            });
+            
+            // News category filtering
+            const newsFilters = document.querySelectorAll('.news-filter');
+            const newsItems = Array.from(document.querySelectorAll('.news-item'));
+            const newsContainer = document.querySelector('.news-container');
+            
+            newsFilters.forEach(button => {
+                button.addEventListener('click',
+                function() {
+                    const filter = this.dataset.filter;
+                    
+                    newsFilters.forEach(other => {
+                        const isActive = other === this;
+                        other.classList.toggle('active', isActive);
+                        other.setAttribute('aria-pressed', isActive);
+                    });
+                    
+                    let lastVisible = null;
+                    newsItems.forEach(item => {
+                        const visible = filter === 'all' || item.dataset.category === filter;
+                        item.classList.toggle('hidden', !visible);
+                        item.classList.remove('is-last');
+                        if (visible) {
+                            lastVisible = item;
+                        }
+                    });
+                    if (lastVisible) {
+                        lastVisible.classList.add('is-last');
+                    }
+                    newsContainer.scrollTop = 0;
                 });
             });
             
