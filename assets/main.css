@@ -909,6 +909,19 @@ a:hover {
         font-size: 1.4rem;
     }
 
+    .profile-title {
+        font-size: 1.15rem;
+    }
+
+    .news-filters {
+        gap: 0.35rem;
+    }
+
+    .news-filter {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.6rem;
+    }
+
     .social-links {
         gap: 0.4rem;
         justify-content: center;
