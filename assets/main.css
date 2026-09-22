@@ -222,7 +222,9 @@ a:hover {
 
 .profile-name-zh {
     /* CJK glyphs render larger than Latin at equal font-size */
-    font-size: 0.9em;
+    font-size: 0.85em;
+    /* CJK glyphs sit below the Latin optical center on the shared baseline */
+    vertical-align: 0.05em;
     white-space: nowrap;
 }
 
