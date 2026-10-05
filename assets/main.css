@@ -656,9 +656,13 @@ a:hover {
     max-width: 100%;
 }
 
+/* mapmyvisitors (w=a) renders the map at this div's width with height = width / 2.04,
+   plus a 16px "Total Pageviews" line (t=tt). --map-height is the resulting total height. */
 .visitor-map > div {
-    max-width: 100%;
-    overflow: hidden;
+    --map-height: 270px;
+    width: 100%;
+    max-width: calc((var(--map-height) - 16px) * 2.04);
+    margin: 0 auto;
 }
 
 .visitor-map iframe {
@@ -668,13 +672,13 @@ a:hover {
 
 @media (max-width: 768px) {
     .visitor-map > div {
-        height: 200px !important;
+        --map-height: 200px;
     }
 }
 
 @media (max-width: 480px) {
     .visitor-map > div {
-        height: 180px !important;
+        --map-height: 180px;
     }
 }
 
