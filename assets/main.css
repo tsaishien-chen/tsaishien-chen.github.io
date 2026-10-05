@@ -656,12 +656,9 @@ a:hover {
     max-width: 100%;
 }
 
-/* mapmyvisitors (w=a) renders the map at this div's width with height = width / 2.04,
-   plus a 16px "Total Pageviews" line (t=tt). --map-height is the resulting total height. */
 .visitor-map > div {
-    --map-height: 270px;
-    width: 100%;
-    max-width: calc((var(--map-height) - 16px) * 2.04);
+    width: 320px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
